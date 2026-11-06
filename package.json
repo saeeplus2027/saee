@@ -1,0 +1,25 @@
+{
+  "name": "maw3dak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "create-admin": "node scripts/create-admin.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.3",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.5.0",
+    "helmet": "^8.1.0"
+  }
+}
